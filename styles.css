@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%; 
+    
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1{
+    color: rgb(151, 25, 255);
+    text-align: center;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 365px 190px;
+}
+
+tr:nth-child(1){
+    background-color: rgb(97, 0, 153);
+    color: white;
+}
+
+tr:nth-child(2){
+    background-color: rgb(167, 96, 255);
+    color: white;
+}
+tr:nth-child(3){
+    background-color: rgb(232, 227, 255);
+    color: white;
+}
+td{
+    padding: 5px;
+    border-color: azure;
+}
+.jos{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(151, 25, 255);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.sus{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(59, 25, 255);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
